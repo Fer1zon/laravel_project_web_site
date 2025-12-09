@@ -36,7 +36,7 @@ class MyController extends Controller
         return view('product', compact('product'));
     }
     public function registration(){
-        return view('registration');
+        return view('auth.register');
     }
 }
 
